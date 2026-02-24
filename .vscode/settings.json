@@ -56,5 +56,6 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "demo_for_cs11.sln"
+    "dotnet.defaultSolution": "demo_for_cs11.sln",
+    "dotnet.debug.suppressInvalidDebugTypeWarning": true
 }

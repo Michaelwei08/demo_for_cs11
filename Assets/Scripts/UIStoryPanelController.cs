@@ -1,17 +1,41 @@
+using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class UIStoryPanelController : MonoBehaviour
 {
+    [Header("UI References")]
     [SerializeField] private GameObject storyPanel;
-    [SerializeField] private GameObject startButton;   // ÐÂÔö
+    [SerializeField] private GameObject startButton;   // ï¿½ï¿½ï¿½ï¿½
+    [SerializeField] private GameObject continueButton;
+    [SerializeField] private GameObject titleText;
+
+    [UnitHeaderInspectable("Scene")]
+    [SerializeField] private string gameSceneName = "GameScene";
+
+
+    private void Start()
+    {
+        if (continueButton != null)
+            continueButton.SetActive(false);
+        if (storyPanel != null)
+            storyPanel.SetActive(false);
+    }
 
     public void ShowStoryPanel()
     {
         if (storyPanel != null)
             storyPanel.SetActive(true);
 
+        if (continueButton != null)
+            continueButton.SetActive(true);
+
+        if (titleText != null)
+            titleText.SetActive(false);
+
         if (startButton != null)
-            startButton.SetActive(false);   // Òþ²Ø°´Å¥
+            startButton.SetActive(false);   // ï¿½ï¿½ï¿½Ø°ï¿½Å¥
+
     }
 
     public void HideStoryPanel()
@@ -19,13 +43,27 @@ public class UIStoryPanelController : MonoBehaviour
         if (storyPanel != null)
             storyPanel.SetActive(false);
 
+        if (continueButton != null)
+            continueButton.SetActive(false);
+
+        if (titleText != null)
+            titleText.SetActive(true);
+
         if (startButton != null)
-            startButton.SetActive(true);   // Èç¹ûÐèÒª»Ö¸´°´Å¥
+            startButton.SetActive(true);   // ï¿½ï¿½ï¿½ï¿½ï¿½Òªï¿½Ö¸ï¿½ï¿½ï¿½Å¥
     }
 
+    public void LoadGameScene()
+    {
+        SceneManager.LoadScene(gameSceneName);
+    }
+
+/*
     public void ToggleStoryPanel()
     {
         if (storyPanel != null)
             storyPanel.SetActive(!storyPanel.activeSelf);
     }
+*/
+
 }
