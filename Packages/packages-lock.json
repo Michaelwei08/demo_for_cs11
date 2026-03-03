@@ -318,7 +318,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.xr.picoxr": {
-      "version": "file:D:/Downloads/PICO Unity Integration SDK-3.3.3-20251202",
+      "version": "file:/Users/haorangao/Downloads/PICO Unity Integration SDK-3.3.3-20251202",
       "depth": 0,
       "source": "local",
       "dependencies": {

@@ -1,4 +1,4 @@
-Library: D:\My Files\Unity Files\demo_cs11SI\Temp\BurstOutput\tempburstlibs\arm64-v8a\lib_burst_generated
+Library: /Users/haorangao/Desktop/Stanford/CS 11si/0221pull/Temp/BurstOutput/tempburstlibs/arm64-v8a/lib_burst_generated
 --platform=Android
 --backend=burst-llvm-18
 --target=ARMV8A_AARCH64
@@ -7,11 +7,11 @@ Library: D:\My Files\Unity Files\demo_cs11SI\Temp\BurstOutput\tempburstlibs\arm6
 --dump=Function
 --float-precision=Standard
 --target-framework=NetFramework
---generate-link-xml=Temp\burst.link.xml
---temp-folder=D:\My Files\Unity Files\demo_cs11SI\Temp\Burst
---key-folder=C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/PlaybackEngines/AndroidPlayer
---decode-folder=D:\My Files\Unity Files\demo_cs11SI\Library\Burst
---output=D:\My Files\Unity Files\demo_cs11SI\Temp\BurstOutput\tempburstlibs\arm64-v8a\lib_burst_generated
+--generate-link-xml=Temp/burst.link.xml
+--temp-folder=/Users/haorangao/Desktop/Stanford/CS 11si/0221pull/Temp/Burst
+--key-folder=/Applications/Unity/Hub/Editor/2022.3.62f3/PlaybackEngines/AndroidPlayer
+--decode-folder=/Users/haorangao/Desktop/Stanford/CS 11si/0221pull/Library/Burst
+--output=/Users/haorangao/Desktop/Stanford/CS 11si/0221pull/Temp/BurstOutput/tempburstlibs/arm64-v8a/lib_burst_generated
 --pdb-search-paths=Temp/ManagedSymbols/
 
 --method=UnityEngine.XR.Interaction.Toolkit.Utilities.BurstMathUtility, Unity.XR.Interaction.Toolkit, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::ProjectOnPlane(Unity.Mathematics.float3&, Unity.Mathematics, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null|Unity.Mathematics.float3&, Unity.Mathematics, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null|Unity.Mathematics.float3&, Unity.Mathematics, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null)--1819bc9925667b008fd6c3e6019ccf71
@@ -122,11 +122,11 @@ Library: D:\My Files\Unity Files\demo_cs11SI\Temp\BurstOutput\tempburstlibs\arm6
 --dump=Function
 --float-precision=Standard
 --target-framework=NetFramework
---generate-link-xml=Temp\burst.link.xml
---temp-folder=D:\My Files\Unity Files\demo_cs11SI\Temp\Burst
---key-folder=C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/PlaybackEngines/AndroidPlayer
---decode-folder=D:\My Files\Unity Files\demo_cs11SI\Library\Burst
---output=D:\My Files\Unity Files\demo_cs11SI\Temp\BurstOutput\tempburstlibs\arm64-v8a\lib_burst_generated
+--generate-link-xml=Temp/burst.link.xml
+--temp-folder=/Users/haorangao/Desktop/Stanford/CS 11si/0221pull/Temp/Burst
+--key-folder=/Applications/Unity/Hub/Editor/2022.3.62f3/PlaybackEngines/AndroidPlayer
+--decode-folder=/Users/haorangao/Desktop/Stanford/CS 11si/0221pull/Library/Burst
+--output=/Users/haorangao/Desktop/Stanford/CS 11si/0221pull/Temp/BurstOutput/tempburstlibs/arm64-v8a/lib_burst_generated
 --pdb-search-paths=Temp/ManagedSymbols/
 
 --method=Unity.Jobs.IJobExtensions+JobStruct`1[[UnityEngine.XR.Interaction.Toolkit.AffordanceSystem.Jobs.Float4TweenJob, Unity.XR.Interaction.Toolkit, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(UnityEngine.XR.Interaction.Toolkit.AffordanceSystem.Jobs.Float4TweenJob&, Unity.XR.Interaction.Toolkit, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)--34aec427743d7d01c0cb7a219c9fbe32
