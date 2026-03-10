@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Screwdriver
   - Knife
+  - Key
   layers:
   - Default
   - TransparentFX

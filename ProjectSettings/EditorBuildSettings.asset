@@ -8,12 +8,15 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
-  - enabled: 0
+  - enabled: 1
     path: Assets/StarterScene.unity
     guid: 93df5e5764d9d524ba7916b40ca0b3c5
   - enabled: 1
     path: Assets/GameScene.unity
     guid: 8ee08d81c984c4247a6e7ae8d1629787
+  - enabled: 1
+    path: Assets/EndingScene.unity
+    guid: 7d3706c70da9d479ca13bda7e05afc66
   m_configObjects:
     Unity.XR.PXR.Settings: {fileID: 11400000, guid: 222aa6c4827f7eb449de1c604e9c59bc, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 3d79d006bd1096e4084f939079b0c985, type: 2}
