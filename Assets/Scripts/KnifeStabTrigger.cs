@@ -19,6 +19,15 @@ public class KnifeStabTrigger : MonoBehaviour
 
     private bool hasTriggered = false;
 
+    private void Start()
+    {
+        if (noteObject != null)
+            noteObject.SetActive(false);
+
+        if (timeTextObject != null)
+            timeTextObject.SetActive(false);
+    }
+
     private void OnCollisionEnter(Collision collision)
     {
         if (hasTriggered) return;

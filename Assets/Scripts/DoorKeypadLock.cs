@@ -124,7 +124,7 @@ public class DoorKeypadLock : MonoBehaviour
         if (displayText != null)
         {
             if (currentInput.Length == 0)
-                displayText.text = "ENTER CODE";
+                displayText.text = "_ _ _ _ _ _";
             else
                 displayText.text = currentInput;
         }
